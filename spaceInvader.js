@@ -12,6 +12,13 @@ spaceinvader();
 
 function spaceinvader() {
 
+    //Zwarte achtergrond
+    context.fillStyle = "black";
+    context.beginPath();
+    context.rect(25, 25, 300, 300);
+    context.fill();
+
+
     //ogen
     context.fillStyle = "#BCFE19";
     context.beginPath();
